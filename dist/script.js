@@ -43,10 +43,6 @@ class IncompletedTodos {
             const check = document.createElement("input");
             check.type = "checkbox";
             check.checked = false;
-            // check.addEventListener('click',()=>{
-            //   let completelist = document.querySelector('#complete')
-            //   completelist?.appendChild(mainDiv);
-            // })
             const p1 = document.createElement("p");
             const p2 = document.createElement("p");
             const p3 = document.createElement("p");
