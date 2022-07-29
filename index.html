@@ -11,7 +11,7 @@
     <div class="container">
       <h1>TODO LIST</h1>
       <div class="card-form">
-        <div  class="form">
+        <div class="form">
           <form id="form" action="post">
             <label for="title">Title</label>
             <input id="title" type="text" name="title" />
@@ -20,35 +20,13 @@
             <label for="title">Date</label>
             <input id="date" type="date" name="date" />
             <button id="addBtn" type="button">Add</button>
-            <button type="submit" hidden id="editBtn">Edit</button>
+            <button hidden type="button" id="editBtns">Edit</button>
           </form>
         </div>
-        <div id="tasksList" class="todo-cards">
-          <!-- <h2>InCompleted Todos</h2> -->
+        <div id="tasksList" class="todo-cards"></div>
 
-          <!-- <h2>InCompleted Todos</h2>
-          <div class="todo-card">
-            <label for="checkbox"></label>
-            <input type="checkbox" name="checkbox" />
-            <p id="titleText">Title</p>
-            <p id="descriptionText">Description</p>
-            <p id="dateText">Date</p>
-            <button type="button">Edit</button>
-            <button type="button">Delete</button>
-          </div> -->
-        </div>
-
-        <div class="todo-cards">
+        <div id="complete" class="todo-cards">
           <h2>Completed Todos</h2>
-          <!-- <div class="todo-card">
-            <label for="checkbox"></label>
-            <input type="checkbox" name="checkbox" />
-            <p>Title</p>
-            <p>Description</p>
-            <p>Date</p>
-            <button type="button">Edit</button>
-            <button type="button">Delete</button>
-          </div> -->
         </div>
       </div>
     </div>
